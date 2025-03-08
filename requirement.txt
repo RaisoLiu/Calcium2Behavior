@@ -1,0 +1,7 @@
+yaml
+torch 
+torchvision 
+torchaudio
+tqdm
+scikit-learn
+PyYAML

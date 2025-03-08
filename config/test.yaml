@@ -1,0 +1,20 @@
+experiment: quick_test_code
+
+data:
+  npy_path: data_preprocess/npy/no.62_Drd1-Cre.xlsx.day2.neuron.npy
+  label_path: data_preprocess/event_probability/no.62_Drd1-Cre.xlsx.day2_event.npy
+  left_window_size: 50      # Number of past time steps to use as input
+  right_window_size: 49      # Number of future time steps to predict
+
+training:
+  total_epochs: 100
+  learning_rate: 1.0e-4
+  hidden_dim: 64
+  batch_size: 32
+  task_type: regression   # or "classification"
+  num_folds: 5              # Number of splits for time series cross-validation
+
+output:
+  dir_path: ./results
+  
+device: cuda              # or "cpu"
