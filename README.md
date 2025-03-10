@@ -3,13 +3,13 @@
 ## Overview
 This project uses calcium imaging data to predict behavioral outcomes with PyTorch. The model supports both regression and classification tasks based on GRU neural network architecture.
 
-## Setup
+## First Data Preprocess
 
-### Requirements
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+put xlsx file to 0-raw-xlsx
+
+
+
+
 ## Configuration
 Edit `config.yaml` to set parameters. For example:
 

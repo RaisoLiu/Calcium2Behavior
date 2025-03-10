@@ -3,10 +3,6 @@ playground
 .pytest_cashe
 .vscode
 results*
-data_preprocess/event_probility/*
-data_preprocess/npy/*
-data_preprocess/state_class/*
-data_preprocess/raw/*
-data_preprocess/event_probability_with_direction/*
-data_preprocess/shuffle_neuron/*
-data_preprocess/behavior
+data_preprocess/data-ver250309
+data_preprocess/0-raw-xlsx/*.xlsx
+data_preprocess/1-neuron/*.npy
