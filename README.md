@@ -42,3 +42,6 @@ python main.py --config config.yaml
 
 ## Output
 Results including models, predictions, metrics, and plots will be saved under the specified output directory, structured by timestamp.
+
+
+## Method

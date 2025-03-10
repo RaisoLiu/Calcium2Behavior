@@ -1,0 +1,16 @@
+data:
+  label_path: data_preprocess/state_class/no.109_NP67.xlsx.day9_state.npy
+  left_window_size: 50
+  npy_path: data_preprocess/shuffle_neuron/no.109_NP67.xlsx.day9_shuffle.npy
+  right_window_size: 49
+device: cuda
+experiment: no.109_NP67.xlsx.day9
+output:
+  dir_path: ./results-shuffle_class_prediction
+training:
+  batch_size: 32
+  hidden_dim: 64
+  learning_rate: 0.0001
+  num_folds: 5
+  task_type: regression
+  total_epochs: 300

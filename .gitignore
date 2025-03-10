@@ -7,3 +7,6 @@ data_preprocess/event_probility/*
 data_preprocess/npy/*
 data_preprocess/state_class/*
 data_preprocess/raw/*
+data_preprocess/event_probability_with_direction/*
+data_preprocess/shuffle_neuron/*
+data_preprocess/behavior

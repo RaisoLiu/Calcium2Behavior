@@ -23,11 +23,11 @@ def parse_args():
 def main():
     args = parse_args()
 
-    npy_files = sorted([f for f in os.listdir(args.npy_folder) if f.endswith('.neuron.npy')])
+    npy_files = sorted([f for f in os.listdir(args.npy_folder) if f.endswith('.npy')])
 
     for npy_file in npy_files:
         experiment_name = os.path.splitext(npy_file)[0]
-        experiment_name = experiment_name.split('.neuron')[0]
+        experiment_name = experiment_name.split('_shuffle')[0]
         label_file = experiment_name + '_dir_event.npy'
 
         npy_path = os.path.join(args.npy_folder, npy_file)

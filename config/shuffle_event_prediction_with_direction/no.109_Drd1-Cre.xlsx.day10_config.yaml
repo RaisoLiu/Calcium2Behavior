@@ -1,0 +1,16 @@
+data:
+  label_path: data_preprocess/event_probability_with_direction/no.109_Drd1-Cre.xlsx.day10_dir_event.npy
+  left_window_size: 50
+  npy_path: data_preprocess/shuffle_neuron/no.109_Drd1-Cre.xlsx.day10_shuffle.npy
+  right_window_size: 49
+device: cuda
+experiment: no.109_Drd1-Cre.xlsx.day10
+output:
+  dir_path: ./results-shuffle_event_prediction_with_direction
+training:
+  batch_size: 32
+  hidden_dim: 64
+  learning_rate: 0.0001
+  num_folds: 5
+  task_type: regression
+  total_epochs: 300
